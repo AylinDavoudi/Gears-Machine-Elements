@@ -10,7 +10,7 @@ rho1 = 10;    % Radius of curvature 1 (mm)
 rho2 = 15;    % Radius of curvature 2 (mm)
 
 % Force range
-F_range = linspace(50, 5000, 100); % Force range from 50 N to 5000 N (100 points)
+F_range = linspace(50, 5e7, 100); % Force range from 50 N to 5000 N (100 points)
 
 % Initialize deflection array
 delta_c_array = zeros(size(F_range));
